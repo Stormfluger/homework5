@@ -6,8 +6,8 @@ function toggleCardVisible () {
  document.getElementById('card').classList.toggle('hidden');
 }
 
-
 document.getElementById('close').addEventListener('click', toggleCardVisible);
+
 
 document.getElementById('content').addEventListener('click', (event) => {
     let target = null;
